@@ -1,5 +1,5 @@
 # 18-p2-my-store
-
+Ver el sitio aquí https://my-store-vue.netlify.app/comprar
 ## Project setup
 ```
 npm install
