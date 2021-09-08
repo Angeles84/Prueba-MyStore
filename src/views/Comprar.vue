@@ -1,8 +1,8 @@
 <template>
   <div class="container mt-2">
     <div class="row">
-      <div class="col-4" v-for="(producto, index) in $store.state.productList" :key="index">
-        <div class="card my-3" style="width: 18rem;">
+      <div class="col-12 col-md-6 col-lg-4" v-for="(producto, index) in $store.state.productList" :key="index">
+        <div class="card my-3 mx-auto" style="width: 18rem;">
           <img src="../assets/product.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">{{producto.name}}</h5>

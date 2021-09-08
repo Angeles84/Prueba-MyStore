@@ -10,6 +10,7 @@ const delay = (ms) => async () => {
     }, ms)
   })
 }
+//const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default new Vuex.Store({
   state: {
